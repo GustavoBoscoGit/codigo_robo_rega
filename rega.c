@@ -5,6 +5,7 @@
 
 // define os pinos de conexão entre o Arduino e o Display LCD
 const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
+
 LiquidCrystal_I2C lcd(0x27,20,4);  // set the LCD address to 0x27 for a 16 chars and 2 line display
 
 // variáveis do programa
